@@ -40,4 +40,6 @@ cl /O2 /arch:AVX2 /DUSE_MKL /openmp lab2.c /I"%MKLROOT%\include" /link mkl_rt.li
 lab2.exe
 
 Вариант 1 не работает по умолчанию, #define SKIP_NAIVE в коде можно закомментировать чтобы он работал
+
+![результат](images/result.png)
  
